@@ -13,14 +13,10 @@ body {
 .header_menu {
     align-self: center;
 }
-.header_logo {
-    justify-self: center;
-}
 .menu_items,
 .contacts a,
 .header_address,
-.footer_address
-{
+.footer_address {
     color: #000;
     font-size: 18px;
     line-height: 24.3px;
@@ -34,7 +30,7 @@ body {
     list-style: circle; 
 }
 .menu_items {
-    float: left; /* если делать через display, то маркеры не отображаются, иконками мне тоже кажется не корректно, через :before{content:" " - тогда 1 пункт с маркером */
+    float: left;
     margin-right: 32px;
 }
 .menu_items.active {
@@ -45,6 +41,7 @@ body {
     cursor: auto;
 }
 .header_logo {
+    justify-self: center;
     background-color:#FFF;
 }
 .header_logo_image {
@@ -81,7 +78,7 @@ body {
     flex-direction: column;
     gap: 20px 0;
     padding: 165px 50px 83px;
-  }
+}
 .cover_text {
     font-size: 100px;
     font-weight: 700;
