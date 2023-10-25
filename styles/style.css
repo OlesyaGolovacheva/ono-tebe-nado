@@ -21,10 +21,6 @@ body {
     line-height: 24.3px;
     font-style: normal;
 }
-.contacts {
-    justify-self: end;
-    align-self: center;
-}
 .menu_list {
     list-style: circle;
 }
@@ -48,6 +44,8 @@ body {
     height: 105px;
 }
 .contacts {
+    justify-self: end;
+    align-self: center;
     width: 240px;
 }
 .contacts a {
