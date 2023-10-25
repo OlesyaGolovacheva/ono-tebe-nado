@@ -8,8 +8,14 @@ body {
   min-width: 1100px;
   margin: 0;
   font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-
+body,
+button {
+  color: #FFF;
+}
 h1,
 h2,
 h3,
@@ -23,6 +29,7 @@ li,
 blockquote {
   margin: 0;
   padding: 0;
+  font-weight: 400;
 }
 
 a {
